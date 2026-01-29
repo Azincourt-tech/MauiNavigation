@@ -11,7 +11,7 @@ namespace MauiNavigation
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            return new Window(new NavigationPage(new PaginaInicial()));
+            return new Window(new NavigationPage(new AlunosPage()));
         }
     }
 }
